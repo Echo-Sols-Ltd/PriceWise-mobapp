@@ -3,13 +3,9 @@ import { Text, View } from "react-native";
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className="bg-[#E58411] flex-1 items-center justify-center"
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text className="text-white text-4xl font-bold">PriceWise</Text>
     </View>
   );
 }
